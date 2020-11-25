@@ -1,0 +1,183 @@
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------------------*/
+
+.contatiner {
+    width: 100%;
+    min-width: 1920px;
+    display: block;
+}
+.contatiner>div {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+.contatiner>div:first-child {
+    border-bottom: 2px solid #000000;
+}
+.contatiner .name h1{
+    font: normal normal normal 80px/94px Roboto;
+    font-size: 80px;
+    padding-top: 47px;
+    padding-bottom: 17px;
+}
+.contatiner span.photo {
+    display: block;
+    margin-top: 48px;
+    width: 324px;
+    height: 324px;
+    background: transparent url('../img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+}
+
+.item {
+    padding-top: 48px;
+}
+
+.item span,.footer span {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.item .title {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+}
+.item .title>span,.footer .title>span {
+    display: inline-block;
+    font-size: 32px;
+    margin-right: 16px;
+}
+.item .title>span:nth-child(2){
+    font-size: 24px;
+    color:#A00404;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item .contain span {
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.item.skills,.footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    width: 1920px;
+    background: #415165 0% 0% no-repeat padding-box;
+    color: #ffffff;
+}
+.item.skills .title,.footer .title {
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+}
+.item.skills>div,.footer>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.item.skills .contain .contain_r {
+    margin-top: 40px;
+    margin-left: 40%;
+    border-left: 2px solid #96A9C4;
+}
+.item.skills .contain .contain_r>span {
+    padding-bottom: unset;
+    padding-top: unset;
+    padding-left: 5%;
+    font: normal normal 300 24px/36px Roboto;
+}
+.item.workExp .contain{
+    margin-top: 16px;
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 2px solid #96A9C4;
+}
+.item.workExp .contain>span:nth-child(1){
+    padding-top: 0px;
+}
+.item.workExp .contain>span:nth-child(3){
+    width: 65%;
+}
+.item.workExp .contain span.img{
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+span.img.img_hexschoolLogo{
+    background: url('../img/Group 7.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+span.img.img_simtreeLogo{
+    background: url('../img/Group 8.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.footer .title{
+    padding-bottom: 5px;
+}
+.footer .contain {
+    text-align: center;
+    padding-top: 32px;
+}
+.footer .contain>span{
+    font-size: 24px;
+    display: block;
+    padding-bottom: 16px;
+}
+.footer .contain>span img {
+    display: inline-block;
+    margin-right: 24px;
+}
